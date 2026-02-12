@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandeep Kannaujiya | Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar">
+        <div class="nav-container">
+
+            <!-- Logo -->
+            <a href="#" class="nav-logo">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-cube"></i>
+                </div>
+                <span class="logo-text">Nexus</span>
+            </a>
+
+            <!-- Desktop Menu -->
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-house"></i> Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#explore" class="nav-link">
+                        <i class="fa-solid fa-compass"></i> Explore
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">
+                        <i class="fa-solid fa-layer-group"></i> Projects
+                    </a>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-item">
+                            <i class="fa-solid fa-code"></i> Development
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <i class="fa-solid fa-palette"></i> UI / UX Design
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <i class="fa-solid fa-chart-bar"></i> Analytics
+                        </a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#community" class="nav-link">
+                        <i class="fa-solid fa-users"></i> Community
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">
+                        <i class="fa-solid fa-envelope"></i> Contact
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Actions -->
+            <div class="nav-actions">
+                <button class="theme-toggle">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="btn btn-login">Login</button>
+                <button class="btn btn-signup">Sign Up</button>
+            </div>
+
+            <!-- Hamburger -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#" class="mobile-nav-link"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="#explore" class="mobile-nav-link"><i class="fa-solid fa-compass"></i> Explore</a>
+            <a href="#projects" class="mobile-nav-link"><i class="fa-solid fa-layer-group"></i> Projects</a>
+            <a href="#community" class="mobile-nav-link"><i class="fa-solid fa-users"></i> Community</a>
+            <a href="#contact" class="mobile-nav-link"><i class="fa-solid fa-envelope"></i> Contact</a>
+
+            <div class="mobile-actions">
+                <button class="btn btn-login">Login</button>
+                <button class="btn btn-signup">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================= HERO ================= -->
+    <header class="hero">
+        <div class="hero-container">
+
+            <div class="hero-content">
+                <h1>Hello, I'm Sandeep Kannaujiya</h1>
+                <p>
+                    I am a passionate frontend developer who builds modern,
+                    responsive and user-friendly websites using HTML, CSS,
+                    JavaScript and React.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">View Portfolio</button>
+                    <button class="btn btn-outline">Contact Me</button>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="/mypic2.png" alt="Sandeep Kannaujiya">
+            </div>
+
+        </div>
+    </header>
+
+    <!-- ================= EXPLORE ================= -->
+    <section class="explore" id="explore">
+        <h2 class="explore-title">Explore My Portfolio</h2>
+        <p class="explore-subtiltle">Discover my work, skills and journey 🚀</p>
+
+        <div class="explore-grid">
+            <div class="explore-card">
+                <div class="icon">💻</div>
+                <h3>Projects</h3>
+                <p>Modern and responsive web projects with clean UI.</p>
+                <a href="#projects" class="explore-btn">View Projects →</a>
+            </div>
+
+            <div class="explore-card">
+                <div class="icon">⚡</div>
+                <h3>Skills</h3>
+                <p>HTML, CSS, JavaScript, React, Git and more.</p>
+                <a href="#" class="explore-btn">View Skills →</a>
+            </div>
+
+            <div class="explore-card">
+                <div class="icon">👨‍💻</div>
+                <h3>About Me</h3>
+                <p>Learn more about my journey and passion for coding.</p>
+                <a href="#" class="explore-btn">Read More →</a>
+            </div>
+
+            <div class="explore-card">
+                <div class="icon">📩</div>
+                <h3>Contact</h3>
+                <p>Have a project or idea? Let’s connect.</p>
+                <a href="#contact" class="explore-btn">Contact Me →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">My Projects</h2>
+        <p class="projects-subtitle">Some of my recent work</p>
+
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="portfolio.jpg" alt="Portfolio Project">
+                <div class="project-content">
+                    <h3>Portfolio Website</h3>
+                    <p>Responsive personal portfolio with modern UI.</p>
+                    <a href="https://skcoder-dev.github.io/MyPortfolio/" class="project-btn">View Project →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="/simon.jpeg" alt="Simon Game">
+                <div class="project-content">
+                    <h3>Simon Game</h3>
+                    <p>Complete Simon game with effects and animations.</p>
+                    <a href="https://skcoder-dev.github.io/Simongame/" class="project-btn">View Project →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="/todolist.jpeg" alt="Web Design">
+                <div class="project-content">
+                    <h3>Web Design</h3>
+                    <p>Create a mini To-Do list web designs with animations.</p>
+                    <a href=" https://skcoder-dev.github.io/To-Do-list/" class="project-btn">View Project →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= COMMUNITY ================= -->
+    <section class="community" id="community">
+        <h2 class="community-title">Join My Community</h2>
+        <p class="community-subtitle">Follow me on social platforms</p>
+
+        <div class="community-grid">
+            <div class="community-card">
+                <div class="icon">🐙</div>
+                <h3>GitHub</h3>
+                <p>Check out my open-source projects.</p>
+                <a href="https://github.com/skcoder-dev" class="community-btn">Follow →</a>
+            </div>
+
+            <div class="community-card">
+                <div class="icon">💼</div>
+                <h3>LinkedIn</h3>
+                <p>Connect with me professionally.</p>
+                <a href="https://www.linkedin.com/in/sandeep-kannaujiya-964523339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    class="community-btn">Connect →</a>
+            </div>
+
+            <div class="community-card">
+                <div class="icon">▶️</div>
+                <h3>YouTube</h3>
+                <p>Watch coding and tech videos.</p>
+                <a href="#" class="community-btn">Subscribe →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="contact" id="contact">
+        <h2 class="contact-title">Let’s Work Together</h2>
+        <p class="contact-subtitle">Have a project idea? Reach out 🚀</p>
+
+        <div class="contact-grid">
+            <div class="contact-info-card">
+                <h3>Contact Info</h3>
+                <p>Feel free to reach out anytime</p>
+
+                <div class="info-item">📍 Mau, Uttar Pradesh, India</div>
+                <div class="info-item">📧 sandeepkannaujiya493@gmail.com</div>
+                <div class="info-item">📞 +91 9555027941</div>
+
+                <div class="social-link">
+                    <a href="https://github.com/skcoder-dev" class="social-btn">GitHub</a>
+                    <a href="https://www.linkedin.com/in/sandeep-kannaujiya-964523339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        class="social-btn">LinkedIn</a>
+                    <a href="https://www.youtube.com/@skcoder" class="social-btn">YouTube</a>
+                </div>
+            </div>
+
+            <div class="contact-form-card">
+                <h3>Send Message</h3>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required />
+                    <input type="email" placeholder="Your Email" required />
+                    <textarea rows="5" placeholder="Your Message"></textarea>
+                    <button class="btn-gradient">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- JS -->
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        hamburger.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        const themeToggle = document.querySelector('.theme-toggle');
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+            if (document.body.classList.contains('dark-theme')) {
+                themeToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
+            } else {
+                themeToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
+            }
+        });
+
+        themeToggle.addEventListener('click', () => {
+            body.style.backgroundColor = '#f0f0f0';
+        });
+
+
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('light-theme');
+            const icon = themeToggle.querySelector('i');
+            if (document.body.classList.contains('light-theme')) {
+                icon.classList.remove('fa-moon');
+                icon.classList.add('fa-sun');
+                document.body.style.background = 'linear-gradient(135deg, #e2e8f0, #f1f5f9)'
+                document.body.style.color = '#1e293b';
+            } else {
+                icon.classList.remove('fa-sun');
+                icon.classList.add('fa-moon');
+                document.body.style.background = 'linear-gradient(135deg, #0f172a, #1e293b)';
+                document.body.style.color = '#fafafc';
+            }
+        })
+    </script>
+
+</body>
+
+</html>
